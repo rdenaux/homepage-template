@@ -13,24 +13,24 @@
 
 
     <!-- Styles -->
-    <link href="/bootstrap/cssreadable-bootstrap.css" rel="stylesheet"
+    <link href="/bootstrap/css/readable-bootstrap.css" rel="stylesheet"
           media="screen">
 </head>
 
 <body>
 <div data-lift="BootstrapUtil.bodyComment"></div>
 
-<div class="topbar">
-    <div class="fill">
-        <div class="container">
-            <a data-lift="site.name" class="brand" href="/">Site Name</a>
-            <nav id="menu">
-              <span data-lift="menu.items"><a href="#">Home</a></span>
-            </nav>
-	    <form data-lift="search" style="float: right"></form>
-        </div>
+<header class="jumbotron subhead" id="overview">
+  <div class="row">
+    <div class="span6">
+      <h1><a data-lift="site.name" class="brand" href="/">Site Name</a></h1>
     </div>
-</div>
+  </div>
+  <nav id="menu">
+    <span data-lift="menu.items"><a href="#">Home</a></span>
+    <form data-lift="search" style="float: right"></form>
+  </nav>
+</header>
 
 
 <div class="container">
