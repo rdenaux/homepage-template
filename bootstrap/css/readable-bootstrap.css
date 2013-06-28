@@ -805,7 +805,7 @@ h4 small {
   font-size: 17px;
 }
 
-header > h1 {
+header h1 {
   font-family: sans-serif;
   font-weight: bold;
   font-style: normal;
