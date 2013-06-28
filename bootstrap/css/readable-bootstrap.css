@@ -1,5 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
-
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC|Playfair+Display+SC:400italic|Gentium+Book+Basic:400,400italic,700,700italic);
 /*!
  * Bootstrap v2.3.2
  *
@@ -225,7 +224,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+  font-family: "Gentium Book Basic", Georgia, "Times New Roman", Times, serif;
   font-size: 17px;
   line-height: 26px;
   color: #333333;
@@ -233,8 +232,8 @@ body {
 }
 
 a {
-  color: #e78b24;
-  text-decoration: none;
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
 }
 
 a:hover,
@@ -1067,7 +1066,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+  font-family: "Gentium Book Basic", Georgia, "Times New Roman", Times, serif;
 }
 
 label {
@@ -6185,28 +6184,4 @@ div.subnav-fixed {
 .hero-unit h5,
 .hero-unit h6 {
   margin: 13px 0;
-}
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
-.affix {
-  position: fixed;
 }
